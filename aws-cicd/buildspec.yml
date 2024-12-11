@@ -1,7 +1,7 @@
 version: 0.2
 env:
   secrets-manager:
-    AWS_KEY_ID: AppDeploy
+    AWS_KEY_ID: AppDeploy #este es el nombre de mi secret
     DOCKERHUB_PASS: AppDeploy
     DOCKERHUB_USERNAME: AppDeploy
 phases:
